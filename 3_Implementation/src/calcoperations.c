@@ -29,20 +29,20 @@ void MainMenu()
         case 2  : {printf("\n                  1.Sine                               ");
                    printf("\n                  2.Cosine                             ");
                    printf("\n                  3.Tangent                            ");
-                   printf("\n                  4.Cotangent                          ");
+                   printf("\n                  4.Log                               ");
                    printf("\n                  5.Back to Main Menu                  ");
                    printf("\n                  Enter your choice                    ");
                    scanf("%d",&c2);
                    break;
                   }   
-        case 3  : {printf("\n                   1.Log                               ");
-                   printf("\n                   2.Square                            ");
-                   printf("\n                   3.Cube                              ");
-                   printf("\n                   4.No ^                              ");
-                   printf("\n                   5.Exponent                          ");
-                   printf("\n                   6.10 ^                              ");
-                   printf("\n                   7.Square Root                       ");
-                   printf("\n                   8.Back to Main Mneu                 ");
+        case 3  : {
+                   printf("\n                   1.Square                            ");
+                   printf("\n                   2.Cube                              ");
+                   printf("\n                   3.No ^                              ");
+                   printf("\n                   4.Exponent                          ");
+                   printf("\n                   5.10 ^                              ");
+                   printf("\n                   6.Square Root                       ");
+                   printf("\n                   7.Back to Main Mneu                 ");
                    printf("\n                   Enter your choice                   ");
                    scanf("%d",&c3);
                    break;
@@ -58,6 +58,68 @@ void MainMenu()
 
 }
    
+
+int add(int n1,int n2)
+{
+    int sum=0;
+    sum=n1+n2;
+    return sum;
+}
+
+int sub(int n1,int n2)
+{
+    int dif=0;
+    dif=n1-n2;
+    return dif;
+}
+
+long int mul(int n1,int n2)
+{
+    long int pr=0;
+    pr=n1*n2;
+    return pr;
+}
+
+float div(int n1,int n2)
+{
+    float quo=0;
+    quo=(n1/n2);
+    return quo;
+}
+
+int mod(int n1,int n2)
+{
+    int rem=0;
+    rem=(n1%n2);
+    return rem;
+}
+
+double sine(double ang)
+{
+    double ans=sin(ang);
+    return ans;
+
+}
+
+double cosi(double ang)
+{
+    double ans=cos(ang);
+    return ans;
+}
+
+double tang(double ang)
+{
+    double ans=tan(ang);
+    return ans;
+}
+
+double logr(double ang)
+{
+    double ans=log(ang);
+    return ans;
+}
+
+
 
 
 
