@@ -13,7 +13,7 @@ void MainMenu()
     printf("\n                                      3.Additional Operations                           ");
     printf("\n                                      Enter your choice                                 ");
     scanf("%d",&sel);
-    system("clear");
+   
     switch (sel)
     {
         case 1  : { printf("\n                1.Addition                            ");
@@ -51,9 +51,7 @@ void MainMenu()
 
     }
         
-                            switch(c1){
-                                case 1:
-                            }
+                           
                             
 
 }
