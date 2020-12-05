@@ -1,1 +1,1 @@
-# MiniProject_Calc
+# MiniProject_Calculator
