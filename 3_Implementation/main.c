@@ -89,8 +89,8 @@ int main()
                     }
             case 5:{ double num1,num2;
                      printf("\n Enter the numbers");
-                     scanf("%d",&num1);
-                     scanf("%d",&num2);
+                     scanf("%lf",&num1);
+                     scanf("%lf",&num2);
                      int res= mod(num1,num2);
                      printf("\n The Answer is: %d",res);
                      break;
@@ -129,7 +129,7 @@ int main()
                                 }
                         case 3:{double num1;
                                 printf("\n Enter the angle in Degree");
-                                scanf("%d",&num1);
+                                scanf("%lf",&num1);
                                 double res=tang(num1);
                                 printf("\n The Answer is: %lf ",res);
                                 break;
